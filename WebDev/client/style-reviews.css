@@ -1,0 +1,109 @@
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    color: #ffffff;
+    box-sizing: border-box;
+  }
+
+header .navbar-brand {
+    display: flex;
+    height: 50px; 
+    mix-blend-mode: screen; 
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+ 
+  }
+
+
+  .navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  
+  .dropdown-menu {
+    background-color: #333; /* Match the navbar background */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .dropdown-item {
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #444; /* Slightly lighter shade */
+    color: #ffc9eb;
+  }
+  
+  
+  /* the nave bar*/
+  
+  .navbar-nav .nav-link {
+    text-decoration: none; 
+    display: inline-block; 
+    color: rgb(255, 255, 255); 
+    border: none; 
+    border-radius: 10px; 
+    padding: 20px; 
+    font-size: 18px; 
+    font-weight: bold; 
+    cursor: pointer; 
+    transition: transform 0.2s; 
+    margin-left: 10px; 
+  }
+  
+
+  /* Toggler Button Base Styles */
+  .navbar-toggler {
+    border: none;
+    border-radius: 10px;
+    background-color: #f8f6f6;
+    outline: none;
+    padding: 0px;
+  }
+  
+  
+  .navbar-toggler-icon {
+    width:20px;
+    height: 40px;
+    border-radius: 15px;
+    display: inline-block;
+    transition: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  }
+  
+  .navbar-toggler-icon::before,
+  .navbar-toggler-icon::after {
+    
+    position: absolute;
+    transition: transform 0.3s ;
+  }
+  
+  .collapse{
+    text-align: center;
+  }
+  
+  /* the trailers and reviews*/
+  .section{
+    display: flex;
+    padding: 5%;
+  }
+  .trailer{
+    padding: 10px;
+    display: grid; 
+  }
+ .container{
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  padding: 10px;
+ } 

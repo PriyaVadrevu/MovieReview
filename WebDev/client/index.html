@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta name="description" content="Stream your favorite movies and TV shows. Choose your preferred genre and language!">
+    <title>Movie Streaming Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+
+          <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="D:/FullStackDev/Programing/WebDev/client/public/images/logo_2.png" alt="Website logo" id="logo1" class="logo">
+            </a>
+            <!-- Navbar Toggle for Mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="genreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Genre
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="genreDropdown">
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Movies.html">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="TV Shows.html">TV Shows</a> 
+                        
+                    </li>
+                    <li class="nav-item">
+                        <form class="d-flex" id="form" role="search">
+                            <input class="form-control me-2" type="search" id="query" name="q" placeholder="Search..." aria-label="Search">
+                            <button class="btn" type="submit" id="search-button"><i class="fa fa-search"></i></button>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </nav> 
+    </header>
+
+
+    <section class="maintm py-0">
+        
+    <!-- <div class="row">
+
+            <div class="col-md-4">
+                
+            </div>
+         
+            <div class="col-sm">
+
+                <div id="slider" class="slider"> </div> 
+
+            </div>
+
+        </div> -->
+        
+        <section class="section" id="section">
+            
+            <div class="row">
+              
+                <div class="column">
+                    
+                    <div class="card">
+                
+                        <div class="center">
+                        
+                            <a href="reviews.html?id=123&title=poster.jpg">
+                                <img src="/img.jpg" class="img-fluid thumbnail" alt="movie">
+                            </a>
+                            
+                        </div>
+              
+                    </div>
+
+                </div>   
+
+            </div>
+          
+        </section>   
+   
+    </section>
+
+    <section class="footer-container">
+        <!-- Row 3: Links -->
+        <div class="footer-row links-row">
+            <ul class="footer-links">
+                <li><a href="D:\FullStackDev\Programing\WebDev\client\Intro.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+
+        <!-- Row 4: Copyright -->
+        <div class="footer-row copyright-row">
+            <p>&copy; 2024 Movie Streaming Website. All rights reserved.</p>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+<!-- <script src="common.js"> </script> -->
+
+<script src="script.js"></script> 
+
+</html>
