@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
     const params = new URLSearchParams(window.location.search);
-    const movieId = params.get('https://api.themoviedb.org/3/review/{review_id}');
+    const movieId = params.get('id');
 
     if (movieId) {
         fetchReviews(movieId);
