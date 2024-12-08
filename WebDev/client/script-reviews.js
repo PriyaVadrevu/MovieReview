@@ -1,4 +1,7 @@
+
+
 document.addEventListener("DOMContentLoaded", () => {
+    const movieID = "https://api.themoviedb.org/3/review/{review_id}";
     const params = new URLSearchParams(window.location.search);
     const movieId = params.get('id');
 
