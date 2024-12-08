@@ -143,5 +143,3 @@ This guide provides a comprehensive list of Git commands to help you manage your
 | Example: `git config --global alias.st status`   | Alias `git st` for `git status`.             |
 
 ---
-
-
