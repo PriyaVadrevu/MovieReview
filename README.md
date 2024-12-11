@@ -1,4 +1,4 @@
-# Git Commands Cheat Sheet
+# Git Commands Sheet
 
 This guide provides a comprehensive list of Git commands to help you manage your repositories.
 
